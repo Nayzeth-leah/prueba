@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+              $("#T").click(function(){
+                $("#button5").hide();
+                $("#button9").hide();
+                $("#button13").hide();
+                $("#button7").hide(); 
+                $("#button11").hide();
+                $("#button15").hide();
+                $("#button4").hide();
+                $("#button8").hide();
+                $("#button12").hide();
+                $("#button16").hide();
+              });
+            
+             $("#F").click(function(){
+                $("#button6").hide();
+                $("#button7").hide();
+                $("#button8").hide();
+                $("#button14").hide();
+                $("#button15").hide();
+                $("#button16").hide();
+              });
+            
+            
+              $("#Mostrar").click(function(){
+                $("#button5").show();
+                $("#button9").show();
+                $("#button13").show();
+                $("#button7").show();
+                $("#button11").show();
+                $("#button15").show();
+                $("#button4").show();
+                $("#button8").show();
+                $("#button12").show();
+                $("#button16").show();
+                $("#button6").show();
+                $("#button7").show();
+                $("#button8").show();
+                $("#button14").show();
+                $("#button15").show();
+                $("#button16").show();
+              });
+              });
+       
+            </script>
+        
+        <style>
+            body{
+                background-color: rgba(91, 93, 91, 0.876);
+            }
+            table, th, td{
+                border:  2px solid rgb(0, 0, 0);
+                border-collapse: collapse;
+                width: 40% 60% 60% 40%;
+            }
+        </style>
+    
+    <h1>EXAMEN</h1>
+    <label id="numero1"></label>
+    <label id="numero2"></label>
+    <p id="sumando"></p>
+    <script src="Examen.js"></script>
+        
+
+</head>
+
+<body>
+    <table style="width: 45%;">
+    <div class="btn-group-vertical">
+   
+
+
+        <tr>
+            <td><button type="button" class="btn btn-success" id="F">Dibujar F</button></td>
+            <th><button type="button" class="btn btn-warning" id="button1">Button1</button></th>
+            <th><button type="button" class="btn btn-warning" id="button2">Button2</button></th>
+            <th><button type="button" class="btn btn-warning" id="button3">Button3</button></th>
+            <th><button type="button" class="btn btn-warning" id="button4">Button4</button></th>
+        
+    
+        </tr>
+
+    <tr>
+        <td><button type="button" class="btn btn-success" id="T">Dibujar T</button></td>
+        <th><button type="button" class="btn btn-warning" id="button5">Button5</button></th>
+        <th><button type="button" class="btn btn-warning" id="button6">Button6</button></th>
+        <th><button type="button" class="btn btn-warning" id="button7">Button7</button></th>
+        <th><button type="button" class="btn btn-warning" id="button8">Button8</button></th>
+
+    </tr>
+
+   
+
+    <tr>
+        <td> <button type="button"  class="btn btn-success" onclick="suma()">Suma</button></td>
+        <th><button type="button" class="btn btn-warning" id="button9">Button9</button></th>
+        <th><button type="button" class="btn btn-warning" id="button10">Button10</button></th>
+        <th><button type="button" class="btn btn-warning" id="button11">Button11</button></th>
+        <th><button type="button" class="btn btn-warning" id="button12">Button12</button></th>
+    
+
+    </tr>
+
+    <tr>
+        <td><button type="button" class="btn btn-success" id="Mostrar">Mostrar</button></td>
+        <th><button type="button" class="btn btn-warning" id="button13">Button13</button></th>
+        <th><button type="button" class="btn btn-warning" id="button14">Button14</button></th>
+        <th><button type="button" class="btn btn-warning" id="button15">Button15</button></th>
+        <th><button type="button" class="btn btn-warning" id="button16">Button16</button></th>
+    
+
+    </tr>
+
+
+
+
+ </table>
+    </div>
+</body>
+
+</html>
